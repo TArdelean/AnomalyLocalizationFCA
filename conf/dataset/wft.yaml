@@ -1,0 +1,7 @@
+name: wft
+data_manager:
+  _target_: data_loaders.StandardFormatDataset
+  data_dir: ${hydra:runtime.cwd}/datasets/wft
+  out_dir: ${hydra:runtime.output_dir}
+  paddings: [50]
+  objects: ['texture_1', 'texture_2']

@@ -1,0 +1,7 @@
+name: sww
+method:
+  _target_: sc_methods.ScSWW
+  tile_size: ${tile_size}
+  chunk_size: 8
+  sigma: 6.0
+  reference_selection: median

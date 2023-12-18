@@ -1,0 +1,17 @@
+name: base
+device: cuda
+image_size: original
+tile_size: [9, 9]
+
+defaults:
+  - _self_
+  - fe: ???
+  - sc: ???
+  - dataset: mvtec
+
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ./outputs/${dataset.name}_${fe.name}_${sc.name}_${now:%Y-%m-%d}_${now:%H-%M-%S}

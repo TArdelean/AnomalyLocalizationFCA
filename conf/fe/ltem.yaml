@@ -1,0 +1,6 @@
+name: ltem
+tile_size: ${tile_size}
+feature_extractor:
+  _target_: feature_extractors.LawTextureEnergyMeasure
+  mean_patch_size: 15
+  device: ${device}

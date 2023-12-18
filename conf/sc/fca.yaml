@@ -1,0 +1,8 @@
+name: FCA
+method:
+  _target_: sc_methods.ScFCA
+  tile_size: ${tile_size}
+  chunk_size: 8
+  sigma_p: 3.0
+  reference_selection: median
+  sigma_s: 1.0

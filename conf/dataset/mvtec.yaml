@@ -1,0 +1,7 @@
+name: mvtec
+data_manager:
+  _target_: data_loaders.StandardFormatDataset
+  data_dir: ${hydra:runtime.cwd}/datasets/mvtec_anomaly_detection
+  out_dir: ${hydra:runtime.output_dir}
+  paddings: [100]
+  objects: ['carpet', 'grid', 'leather', 'tile', 'wood']

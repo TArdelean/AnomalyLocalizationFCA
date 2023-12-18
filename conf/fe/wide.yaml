@@ -1,0 +1,6 @@
+name: wide
+tile_size: ${tile_size}
+feature_extractor:
+  _target_: feature_extractors.WideResnetExtractor
+  post_scale: True
+  device: ${device}

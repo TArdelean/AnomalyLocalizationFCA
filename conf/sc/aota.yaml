@@ -1,0 +1,5 @@
+name: aota
+method:
+  _partial_: true
+  _target_: sc_methods.sc_aota
+  tile_size: ${tile_size}

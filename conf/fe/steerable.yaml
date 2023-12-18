@@ -1,0 +1,8 @@
+name: steerable
+tile_size: ${tile_size}
+feature_extractor:
+  _target_: feature_extractors.SteerableExtractor
+  o: 43
+  m: 1
+  scale_factor: 1
+  post_scale: True

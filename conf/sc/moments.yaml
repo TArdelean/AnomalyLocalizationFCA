@@ -1,0 +1,7 @@
+name: moments
+method:
+  _partial_: true
+  _target_: sc_methods.sc_moments
+  tile_size: ${tile_size}
+  sigma: 6.0
+  powers: [1.0, 2.0, 3.0, 4.0]

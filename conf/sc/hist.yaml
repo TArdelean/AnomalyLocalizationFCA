@@ -1,0 +1,7 @@
+name: hist
+method:
+  _partial_: true
+  _target_: sc_methods.sc_hist
+  tile_size: ${tile_size}
+  bins: 10
+  sigma: 6.0

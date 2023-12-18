@@ -1,0 +1,6 @@
+outputs/**
+!outputs/.gitkeep
+datasets/**
+!datasets/.gitkeep
+.idea
+__pycache__

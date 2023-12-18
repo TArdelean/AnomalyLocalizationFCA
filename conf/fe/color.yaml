@@ -1,0 +1,5 @@
+name: color
+tile_size: ${tile_size}
+feature_extractor:
+  _target_: feature_extractors.Colors
+  post_scale: False

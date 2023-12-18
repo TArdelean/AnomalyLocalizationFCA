@@ -1,0 +1,7 @@
+name: vgg
+tile_size: ${tile_size}
+feature_extractor:
+  _target_: feature_extractors.VggExtractor
+  post_scale: True
+  layers: ['conv_1', 'conv_2']
+  device: ${device}
